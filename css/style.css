@@ -16,7 +16,8 @@ html {
       font-size: 57%; } }
 
 body {
-  position: relative; }
+  position: relative;
+  overflow-x: hidden; }
 
 .mobileNav {
   height: 100vh;
@@ -452,7 +453,7 @@ a {
     height: 2rem; }
 
 .moveSmallPlane {
-  transform: translateX(500px);
+  transform: translateX(100px);
   opacity: 0; }
 
 .enterU {
