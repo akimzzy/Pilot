@@ -100,9 +100,9 @@ const animateSection = (() => {
         } else {
             allExperts.forEach(cur => cur.classList.add("enterU"))
         }
-        if (introPosition < -screenPosition*1.5) {
-            allExperts.forEach(cur => cur.classList.add("enterU")) 
-        }
+        // if (introPosition < -screenPosition*2) {
+        //     allExperts.forEach(cur => cur.classList.add("enterU")) 
+        // }
     }
 
     allJet.forEach(jet => {
